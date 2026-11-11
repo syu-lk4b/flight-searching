@@ -1,0 +1,20 @@
+# Local agent runtime & cache
+.pi/
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+
+# Environment & secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Temporary local scratch files & raw dumps in root
+/agent_*.json
+/*_raw*.json
+/query_helper.py
+/task1_matrix.md
+/shanghai_japan_top5_flights_report.md
+/shanghai_korea_top5_flights_report.md
